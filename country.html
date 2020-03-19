@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Задание:"Ваш город — Владивосток?"</title>
+</head>
+<body>
+	<form>
+		<p>Задание:"Ваш город — Владивосток?"</p>
+		<textarea style="width:200px; height: 60px;" id="area" placeholder="Напишите здесь название города"></textarea>
+		<br>
+		<p id="country"></p>
+		<button hidden="true" id="area_button" onclick="localStorage.removeItem('area');area.value=''" >Очистить город</button>
+	</form>
+	<br>
+	<a href="index.html">Back</a>
+	<script type="text/javascript" src="script/country-script.js"></script>
+</body>
+</html>
